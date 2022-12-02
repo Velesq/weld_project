@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Predict</title>
+</head>
+<body>
+
+    <p>Введите параметры технологического режима</p>
+
+    <form action="" method="post">
+        <p>
+	    <input type="text" name="IW">
+        <label for="IW">Величина сварочного тока (IW)</label>
+        </p>
+        <p>
+	    <input type="text" name="IF">
+        <label for="IF">Ток фокусировки электронного пучка (IF)</label>
+        </p>
+        <p>
+	    <input type="text" name="VW">
+        <label for="VW">Скорость сварки (VW)</label>
+        </p>
+        <p>
+	    <input type="text" name="FP">
+        <label for="FP">Расстояние от поверхности образцов до электронно-оптической системы (FP)</label>
+        </p>
+	<p>
+	    <input type="submit">
+	</p>
+    </form>
+
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+
+</body>
+</html>

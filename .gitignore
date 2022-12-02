@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 /src/.idea
 **/__pycache__/*
 **/.ipynb_checkpoints/*
+=======
+
+/src/.idea
+**/__pycache__/*
+**/.ipynb_checkpoints/*
+>>>>>>> 3c4301b (project files added)
